@@ -1,14 +1,66 @@
-.flwx {
+.main {
   display: flex;
+  flex-direction: column;
 }
-
-.flexView {
-  height: 50vh;
-  width: 33vh;
-  color: #000;
-  font-size: 30rpx;
-  margin: 20rpx;
-  text-align: center;
-  background-color: #ccc;
-
+.sliders {
+  color: #fff;
 }
+swiper {
+  height: 75vh;
+}
+  .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+  }
+    .info {
+      padding: 40rpx;
+      background-image: linear-gradient(-180deg, rgba(17,17,17,0.00) 0%, rgba(17,17,17,0.60) 100%);
+    }
+      .title {
+        font-size: 64rpx;
+        line-height: 90rpx;
+      }
+      .author {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40rpx;
+        padding-top: 40rpx;
+        border-top: 1rpx rgba(255, 255, 255, .3) solid;
+      }
+        .avatar {
+          flex-grow: 0;
+          width: 60rpx;
+          height: 60rpx;
+          border-radius: 100%;
+        }
+        .authorName , .time {
+          flex-grow: 2;
+          font-size: 28rpx;
+          margin-left: 20rpx;
+        }
+        .time {
+          text-align: right;
+          flex-grow: 1;
+          opacity: .5;
+          align-self: 
+        }
+.posts {
+  margin: 20rpx 0;
+}
+  .posts .post {
+    margin-bottom: 20rpx;
+  }
+    .posts .post .bgImg {
+      width: 100%;
+    }
+    .posts .post .title {
+      color: #fff;
+      font-size: 44rpx;
+      line-height: 60rpx;
+      padding: 0 40rpx 60rpx;
+    }

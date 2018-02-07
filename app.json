@@ -10,6 +10,7 @@
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "FOTOMEN",
+    "navigationStyle":"custom",
     "navigationBarTextStyle":"light"
   },
   "tabBar": {

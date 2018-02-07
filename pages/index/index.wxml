@@ -1,5 +1,29 @@
-<view class='flwx'> 
-  <view class='flexView'>1</view>
-  <view class='flexView'>2</view>
-  <view class='flexView'>3</view>
+<view class='main'>
+  <view class='sliders'>
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <view class='item' style='background-image: url({{item}});'>
+            <view class='info'>
+              <text class='title'>肖像摄影利器 徕卡发布两款全新 SL 系统定焦镜头</text>
+              <view class='author'>
+                <image class='avatar' src='{{item}}' />
+                <text class='authorName'>巴斯光年</text>
+                <text class='time'>发表于 2018年1月17日</text>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='posts'>
+    <block wx:for="{{imgUrls}}">
+      <view class='post'>
+        <image class='bgImg' src='{{item}}' />
+        <text class='title'>2017最佳街拍回顾</text>
+      </view>
+    </block>
+  </view>
 </view>
