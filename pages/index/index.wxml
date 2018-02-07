@@ -1,0 +1,5 @@
+<view class='flwx'> 
+  <view class='flexView'>1</view>
+  <view class='flexView'>2</view>
+  <view class='flexView'>3</view>
+</view>

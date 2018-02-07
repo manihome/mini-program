@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/setting/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "backgroundColor":"#232323",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "FOTOMEN",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "backgroundColor":"#232323",
+    "color":"#656565",
+    "selectedColor":"#fff",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "assets/imgs/icon-home-active.png",
+        "iconPath":"assets/imgs/icon-home.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "selectedIconPath": "assets/imgs/icon-category-active.png",
+        "iconPath": "assets/imgs/icon-category.png"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "设置",
+        "selectedIconPath": "assets/imgs/icon-setting-active.png",
+        "iconPath": "assets/imgs/icon-setting.png"
+      }
+    ]
+  }
+}

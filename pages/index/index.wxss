@@ -1,0 +1,14 @@
+.flwx {
+  display: flex;
+}
+
+.flexView {
+  height: 50vh;
+  width: 33vh;
+  color: #000;
+  font-size: 30rpx;
+  margin: 20rpx;
+  text-align: center;
+  background-color: #ccc;
+
+}
